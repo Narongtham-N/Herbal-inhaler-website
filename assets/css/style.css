@@ -23,7 +23,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Sarabun', sans-serif;
     background: radial-gradient(circle at 20% -10%, rgba(107, 228, 199, 0.15), transparent 40%),
                 radial-gradient(circle at 80% 0%, rgba(255, 184, 107, 0.12), transparent 35%),
                 var(--bg);
@@ -31,6 +31,11 @@ body {
     line-height: 1.6;
     min-height: 100vh;
     overflow-x: hidden;
+}
+
+html[lang="th"] body {
+    font-family: 'Sarabun', 'Poppins', sans-serif;
+    letter-spacing: 0.01em;
 }
 
 img {
@@ -172,6 +177,20 @@ p {
 .navbar nav a:hover::after,
 .navbar nav a:focus::after {
     transform: scaleX(1);
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.language-toggle {
+    min-width: 3.25rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    padding: 0.6rem 1.2rem;
 }
 
 .brand {
@@ -807,5 +826,9 @@ section {
     .timeline-card,
     .accordion-item {
         padding: 1.5rem;
+    }
+
+    .nav-actions {
+        gap: 0.5rem;
     }
 }
