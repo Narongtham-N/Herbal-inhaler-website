@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puri Herbal Inhaler | Breathe Natural Relief</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="navbar" id="navbar">
+        <div class="container">
+            <a href="#top" class="brand">Puri</a>
+            <nav>
+                <a href="#benefits" data-i18n="nav.benefits">Benefits</a>
+                <a href="#aromas" data-i18n="nav.aromas">Aromas</a>
+                <a href="#science" data-i18n="nav.science">Science</a>
+                <a href="#experience" data-i18n="nav.experience">Experience</a>
+                <a href="#faq" data-i18n="nav.faq">FAQ</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="btn btn-outline" data-scroll-to="#preorder" data-i18n="nav.preorder">Pre-order</button>
+                <button class="btn btn-ghost language-toggle" type="button" data-action="toggle-language" data-i18n-aria-label="nav.language.aria" aria-label="Switch to Thai" data-lang-target="th">TH</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="top">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <span class="eyebrow" data-i18n="hero.eyebrow">All-natural, always ready</span>
+                    <h1 data-i18n="hero.title">Meet <span class="brand-highlight">Puri</span> – the herbal inhaler that transforms your breath into a ritual.</h1>
+                    <p data-i18n="hero.body">Crafted with a clinical blend of eucalyptus, holy basil, and peppermint, Puri clears your senses and elevates your mood in seconds. No cords, no clutter—just a pocket-sized sanctuary.</p>
+                    <div class="cta-group">
+                        <button class="btn" data-scroll-to="#preorder" data-i18n="hero.primaryCta">Reserve my Puri</button>
+                        <button class="btn btn-ghost" data-scroll-to="#experience" data-i18n="hero.secondaryCta">Watch experience</button>
+                    </div>
+                    <div class="hero-stats">
+                        <div>
+                            <strong>120K+</strong>
+                            <span data-i18n="hero.stat1">Breaths refreshed</span>
+                        </div>
+                        <div>
+                            <strong>98%</strong>
+                            <span data-i18n="hero.stat2">User satisfaction</span>
+                        </div>
+                        <div>
+                            <strong>4.9★</strong>
+                            <span data-i18n="hero.stat3">Average review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="product-card" role="presentation">
+                        <div class="floating-orbs">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <img src="assets/images/puri-inhaler.svg" alt="Illustration of the Puri herbal inhaler" onerror="this.style.display='none';this.previousElementSibling.classList.add('fallback');">
+                        <div class="product-info">
+                            <h2 data-i18n="hero.productTitle">Puri Herbal Inhaler</h2>
+                            <p data-i18n="hero.productSubtitle">Micro-misted botanicals that travel with you.</p>
+                            <div class="badge-list">
+                                <span class="badge" data-i18n="hero.badge1">Clinically blended</span>
+                                <span class="badge" data-i18n="hero.badge2">Zero nicotine</span>
+                                <span class="badge" data-i18n="hero.badge3">Refillable pods</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator" role="presentation">
+                <span data-i18n="hero.scroll">Scroll to explore</span>
+                <div class="mouse"></div>
+            </div>
+        </section>
+
+        <section class="benefits" id="benefits">
+            <div class="container">
+                <h2 data-i18n="benefits.heading">Why customers breathe with Puri</h2>
+                <div class="card-grid">
+                    <article class="card">
+                        <div class="icon">🌿</div>
+                        <h3 data-i18n="benefits.card1.title">Pure botanicals</h3>
+                        <p data-i18n="benefits.card1.body">Organic herbs extracted at low temperatures preserve therapeutic compounds that soothe your respiratory system.</p>
+                    </article>
+                    <article class="card">
+                        <div class="icon">⚡</div>
+                        <h3 data-i18n="benefits.card2.title">Instant clarity</h3>
+                        <p data-i18n="benefits.card2.body">Menthol and camphor vapors open airways in under 90 seconds, helping you focus and breathe easier.</p>
+                    </article>
+                    <article class="card">
+                        <div class="icon">🛡️</div>
+                        <h3 data-i18n="benefits.card3.title">Gentle defense</h3>
+                        <p data-i18n="benefits.card3.body">Holy basil and turmeric support your immune response, providing a natural shield during high-stress days.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="aromas" id="aromas">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="aromas.heading">Choose your aroma ritual</h2>
+                    <p data-i18n="aromas.subheading">Tap an aroma card to reveal the botanical story crafted by our aromatherapists.</p>
+                </div>
+                <div class="aroma-grid">
+                    <article class="aroma-card" data-aroma="clarity">
+                        <h3 data-i18n="aromas.cards.clarity.title">Clarity Burst</h3>
+                        <p class="summary" data-i18n="aromas.cards.clarity.summary">Eucalyptus · Peppermint · Menthol</p>
+                        <p class="details" data-i18n="aromas.cards.clarity.details">Designed for deep breathing moments—great for morning routines or pre-work focus sessions.</p>
+                    </article>
+                    <article class="aroma-card" data-aroma="zen">
+                        <h3 data-i18n="aromas.cards.zen.title">Zen Garden</h3>
+                        <p class="summary" data-i18n="aromas.cards.zen.summary">Lavender · Holy Basil · Green Tea</p>
+                        <p class="details" data-i18n="aromas.cards.zen.details">Your evening exhale: wind down with calming adaptogens that help lower cortisol responses.</p>
+                    </article>
+                    <article class="aroma-card" data-aroma="glow">
+                        <h3 data-i18n="aromas.cards.glow.title">Golden Glow</h3>
+                        <p class="summary" data-i18n="aromas.cards.glow.summary">Turmeric · Lemongrass · Ginger</p>
+                        <p class="details" data-i18n="aromas.cards.glow.details">Warm citrus spice keeps you energized while supporting natural defense pathways.</p>
+                    </article>
+                    <article class="aroma-card" data-aroma="bloom">
+                        <h3 data-i18n="aromas.cards.bloom.title">Bloom Rise</h3>
+                        <p class="summary" data-i18n="aromas.cards.bloom.summary">Rosemary · Grapefruit · Neroli</p>
+                        <p class="details" data-i18n="aromas.cards.bloom.details">Bright botanicals harmonize hormones and uplift mood on grey mornings.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience" id="experience">
+            <div class="container experience-grid">
+                <div class="experience-media">
+                    <div class="video-frame">
+                        <iframe src="https://www.youtube.com/embed/QcMB4mav0eo" title="Puri herbal inhaler" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="experience-copy">
+                    <h2 data-i18n="experience.heading">Breathing made intuitive</h2>
+                    <ul>
+                        <li data-i18n="experience.list1"><span>Magnetic cap</span> keeps botanicals potent and ready for micro-dosing mist.</li>
+                        <li data-i18n="experience.list2"><span>Featherweight alloy body</span> balances luxury feel with everyday durability.</li>
+                        <li data-i18n="experience.list3"><span>Rechargeable nebulizer core</span> delivers 400 guided breaths per charge.</li>
+                    </ul>
+                    <div class="testimonial">
+                        <p data-i18n="experience.testimonial.quote">“I reach for Puri before every meditation session. The aromas anchor me instantly.”</p>
+                        <span data-i18n="experience.testimonial.author">— Mira S., Breathwork Coach</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="science" id="science">
+            <div class="container">
+                <h2 data-i18n="science.heading">Science-backed calm in every inhale</h2>
+                <div class="timeline">
+                    <div class="timeline-card">
+                        <h3 data-i18n="science.card1.title">Clinical sourcing</h3>
+                        <p data-i18n="science.card1.body">Partner farms cultivate botanicals using regenerative methods and triple lab testing for purity.</p>
+                    </div>
+                    <div class="timeline-card">
+                        <h3 data-i18n="science.card2.title">Micro mist technology</h3>
+                        <p data-i18n="science.card2.body">Ultrasonic diffusion breaks herbs into breathable particles that absorb quickly without irritation.</p>
+                    </div>
+                    <div class="timeline-card">
+                        <h3 data-i18n="science.card3.title">Holistic validation</h3>
+                        <p data-i18n="science.card3.body">Validated by aromatherapists and naturopaths to ensure synergy between each botanical blend.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="preorder" id="preorder">
+            <div class="container preorder-card">
+                <div class="preorder-copy">
+                    <h2 data-i18n="preorder.heading">Be the first to feel the ritual</h2>
+                    <p data-i18n="preorder.body">Reserve your Puri inhaler today and receive an exclusive Founders’ Set with all four aroma pods.</p>
+                    <form class="preorder-form">
+                        <label>
+                            <span data-i18n="preorder.form.name.label">Full name</span>
+                            <input type="text" name="name" placeholder="Aiyana Flores" required data-i18n-placeholder="preorder.form.name.placeholder">
+                        </label>
+                        <label>
+                            <span data-i18n="preorder.form.email.label">Email address</span>
+                            <input type="email" name="email" placeholder="you@example.com" required data-i18n-placeholder="preorder.form.email.placeholder">
+                        </label>
+                        <label>
+                            <span data-i18n="preorder.form.aroma.label">Preferred aroma</span>
+                            <div class="select-wrapper">
+                                <select name="aroma">
+                                    <option value="Clarity Burst" data-i18n-option="preorder.form.aroma.options.clarity">Clarity Burst</option>
+                                    <option value="Zen Garden" data-i18n-option="preorder.form.aroma.options.zen">Zen Garden</option>
+                                    <option value="Golden Glow" data-i18n-option="preorder.form.aroma.options.glow">Golden Glow</option>
+                                    <option value="Bloom Rise" data-i18n-option="preorder.form.aroma.options.bloom">Bloom Rise</option>
+                                </select>
+                                <span class="select-caret">▾</span>
+                            </div>
+                        </label>
+                        <button type="submit" class="btn" data-i18n="preorder.form.submit">Join the waitlist</button>
+                        <p class="legal" data-i18n="preorder.form.legal">By submitting, you agree to receive updates from Puri. We respect your inbox and your privacy.</p>
+                    </form>
+                </div>
+                <div class="preorder-visual">
+                    <div class="meter">
+                        <span class="meter-label" data-i18n="preorder.meter">Founder batch 82% reserved</span>
+                        <div class="meter-track"><span style="width:82%"></span></div>
+                    </div>
+                    <ul class="perk-list">
+                        <li data-i18n="preorder.perks.item1"><strong>Complimentary</strong> aroma discovery kit</li>
+                        <li data-i18n="preorder.perks.item2"><strong>Early access</strong> to guided breathing app</li>
+                        <li data-i18n="preorder.perks.item3"><strong>Lifetime</strong> refill discount of 15%</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq" id="faq">
+            <div class="container">
+                <h2 data-i18n="faq.heading">Frequently asked</h2>
+                <div class="accordion">
+                    <article class="accordion-item">
+                        <button class="accordion-trigger" aria-expanded="false">
+                            <span data-i18n="faq.q1.question">Is Puri safe for daily use?</span>
+                            <span class="caret"></span>
+                        </button>
+                        <div class="accordion-panel">
+                            <p data-i18n="faq.q1.answer">Absolutely. Each blend is free from nicotine, synthetic fragrances, and propellants. We follow IFRA safety standards and third-party testing.</p>
+                        </div>
+                    </article>
+                    <article class="accordion-item">
+                        <button class="accordion-trigger" aria-expanded="false">
+                            <span data-i18n="faq.q2.question">How long does one pod last?</span>
+                            <span class="caret"></span>
+                        </button>
+                        <div class="accordion-panel">
+                            <p data-i18n="faq.q2.answer">Each pod delivers roughly 160 herbal breaths. Most customers enjoy a pod for 3-4 weeks with mindful use.</p>
+                        </div>
+                    </article>
+                    <article class="accordion-item">
+                        <button class="accordion-trigger" aria-expanded="false">
+                            <span data-i18n="faq.q3.question">Can I travel with Puri?</span>
+                            <span class="caret"></span>
+                        </button>
+                        <div class="accordion-panel">
+                            <p data-i18n="faq.q3.answer">Yes! Puri is TSA-friendly and designed for carry-on and daily commute travel. The magnetic case protects it from leaks and pressure changes.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <span class="brand">Puri</span>
+                <p data-i18n="footer.tagline">Breathe the purity of botanicals crafted for modern wellbeing.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#benefits" data-i18n="nav.benefits">Benefits</a>
+                <a href="#aromas" data-i18n="nav.aromas">Aromas</a>
+                <a href="#science" data-i18n="nav.science">Science</a>
+                <a href="#preorder" data-i18n="nav.preorder">Pre-order</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener">YouTube</a>
+                <a href="mailto:hello@breathpuri.com">hello@breathpuri.com</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <small data-i18n="footer.rights">© <span id="year"></span> Puri Wellness. All rights reserved.</small>
+        </div>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
